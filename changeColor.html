@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>RandomColor</title>
+  <style type="text/css">
+  #contianer {
+    margin: 0 auto;
+    width: 480px;
+    height: 500px;
+  }
+  .boxes {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 10px;
+    float: right;
+    background: #0099cc;
+  }
+  </style>
+</head>
+<body>
+  <div id="contianer">
+  </div>  
+</body>
+<script>
+  function div() { 
+    var contianer = document.querySelector('#contianer');
+    contianer.innerHTML = '';
+    var list = '';
+    for (var i = 0; i < 16; i++) {
+      list += '<div class="boxes"></div>';
+    }
+    contianer.innerHTML = list; 
+  }
+  div();
+  var contianer = document.querySelector('#contianer');
+  var EventUtil = {
+    addHandler:function (element, type, handler) {
+      if (element.addEventListener) {
+        element.addEventListener(type, handler, false);
+      } else if (element.attachEvent) {
+        element.attachEvent("on" + type, handler);
+      } else {
+        element["on" + type] = handler;
+      }
+    }
+  }
+  var RandomColor = function RandomColor() {
+    var boxes = document.querySelectorAll('.boxes');
+    for (var i = 0; i < boxes.length; i++) {
+      boxes[i].style.background = '#'+('00000'+(Math.random()*0x1000000<<0).toString(16)).slice(-6);
+    }
+  };
+  EventUtil.addHandler(contianer, "click", RandomColor);
+</script>
+</html>
