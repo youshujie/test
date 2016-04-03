@@ -1,0 +1,258 @@
+body {
+  margin: 0;
+  font-family: "Microsoft YaHei";
+}
+p,h3,h4 {
+  margin: 0;
+}
+#head {
+  margin: 0 auto;
+  width: 1280px;
+  overflow: hidden;
+}
+#head-left-box {
+  float: left;
+  width: 425px;
+  height: 520px;
+  background: #e74f4d; 
+  text-align: center;
+}
+#head-left-box > p {
+  color: #ffffff;
+  font-size: 22px;  
+}
+.newTime {
+  margin-top: 173px;
+}
+.line {
+  height: 51px;
+  line-height: 51px;
+}
+#head-middle-box {
+  float: left;
+  width: 425px;
+  height: 520px;
+  text-align: center;
+}
+#head-middle-box > p {
+  color: #323333;
+  font-size: 22px;
+}
+.head-btn {
+  margin: 0 auto;
+  width: 170px;
+  height: 43px;
+  line-height: 43px;
+  font-size: 22px;
+  cursor: pointer;
+}
+#hd-lfbox-btn {
+  border: 1px solid #f9d3d2;
+  color: #ffffff;
+}
+#hd-mbox-btn {
+  border: 1px solid #e74f4d;
+  color: #e74f4d;
+}
+#head-right-box {
+  float: left;
+  width: 430px;
+  height: 520px;
+  background-image: url(../image/hd-rbox-bg.jpg);
+  /*-webkit-filter: grayscale(0.7);*/
+}
+#gray {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: rgba(23,24,25,.5);
+  overflow: hidden;
+}
+#triangle {
+  width: 0;
+  height: 0;
+  margin-top: 245px;
+  border-width: 25px 0 25px 25px;
+  border-color: transparent white;
+  border-style: solid;
+  z-index: 1;
+}
+#content {
+  margin: 0 auto;
+  width: 1280px;
+  height: 700px;
+}
+#title {
+  margin-top: 119px;
+  color:#323333; 
+  font-size: 22px;
+}
+#title,
+#underline,
+.intro {
+  text-align: center;
+}
+#underline {
+  color: #ea6563;
+  font-size: 22px;
+}
+.intro {
+  color: #bdbdbd;
+  font-size: 15px;
+}
+#messages {
+  margin: 0 auto;  
+  margin-top: 108px;
+  width: 1006px;
+  overflow: hidden;
+}
+#sideBar {
+  float: left;
+  width: 293px;
+}
+#sideBar > h4 {
+  color: #74706f;
+}
+#sideBar > p {
+  margin-top: 10px;
+  color: #a5a3a2;
+  font-size: 12px;
+}
+.more {
+  display: block;
+  float: right;
+  color: #a5a3a2;
+  font-size: 12px;
+  cursor: pointer;
+}
+#agreement {
+  margin-bottom: 26px;
+}
+#rights {
+  margin-top: 37px;  
+  margin-bottom: 26px;
+}
+#clause {
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+span {
+  float: right;
+  margin-right: 6px;
+  cursor: pointer;
+}
+#joinUs {
+  float: right;
+  width: 640px;
+  height: 283px;
+}
+.message {
+  margin-bottom: 10px;
+  width: 311px;
+  height: 40px;
+  text-indent: 15px;
+  background-color: #ededef;
+  border: none;
+}
+#textarea {
+  padding-top: 10px;
+  margin-bottom: 11px;
+  width: 636px;
+  height: 110px;
+  text-indent: 15px;
+  background-color: #ededef;
+  border: none;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+#submit {
+  width: 640px;
+  height: 40px;
+  font-size: 15px;
+  line-height: 40px;
+  background-color: #ededef;
+  border: none;
+  cursor: pointer;
+}
+#contact {
+  margin: 0 auto;
+  width: 1280px;
+  height: 360px;
+  background-color: #32353e;
+  overflow: hidden;
+}
+#contact > h3 {
+  margin-top: 90px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+}
+#contact > p {
+  margin: 5px;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+}
+#email {
+  padding: 0;
+  width: 430px;
+  height: 42px;
+  text-indent: 10px;
+  border: none;
+}
+#contact-btn {
+  float: right;
+  padding: 0;
+  width: 80px;
+  height: 42px;
+  background-color: #6f7178;
+  border: none;
+}
+#input {
+  margin: 0 auto;
+  margin-top: 28px;
+  width:510px; 
+}
+#otherWay {
+  margin: 0 auto;
+  margin-top: 38px;
+  width: 180px;
+  height: 32px;
+  overflow: hidden;
+}
+.logo {
+  float: left;
+  margin-right: 20px;
+  width: 30px;
+  height: 32px;
+  line-height: 32px;
+  color: #ffffff;
+  font-size: 30px;
+  cursor: pointer;
+}
+.earth {
+  margin-right: 0;
+}
+#footer {
+  margin: 0 auto;
+  width: 1280px;
+  height: 56px;
+  background-color: #2f3038;
+  overflow: hidden;
+}
+#newWorld {
+  padding: 26px 99px 15px 99px;
+  font-size: 12px;
+  color: #ffffff;
+}
+#back {
+  padding: 26px 40px 15px 40px;
+  font-size: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
