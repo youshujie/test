@@ -1,0 +1,68 @@
+body {
+  font-family: "Microsoft YaHei";
+  color: #fff;
+}
+#contianer {
+  margin: 0 auto;
+  margin-top: 120px;
+  width: 1120px;
+  height: 620px;
+  background-image: url(../image/clear.jpg);
+  background-size: 100% 100%;
+}
+#temp-wrap {
+  height: 400px;
+}
+#header {
+  height: 100px;
+  text-align: center;
+}
+#aver-temp {
+  float: left;
+  font-size: 80px;
+}
+#city {
+  font-size: 50px;
+}
+#temp {
+  font-size: 20px;
+  text-align: center;
+}
+#des {
+  margin: 0 auto;
+  width: 500px;
+  height: 200px;
+}
+#des > span {
+  display: block;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+#temp-index { 
+  height: 200px;
+}
+.footer {
+  margin: 10px;
+  float: left;
+  width: 140px;
+  height: 100%;
+  border-radius: 7px;
+  background-color: #68842d;
+  cursor: pointer;
+}
+.footer > li {
+  list-style: none;
+}
+.footer > p {
+  font-size: 25px;
+  text-align: center;
+}
+.iconfont {
+  margin-top: 60px;
+  height: 70px;
+  text-align:center;
+}
